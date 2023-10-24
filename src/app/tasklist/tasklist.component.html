@@ -1,31 +1,72 @@
-<div style="margin-left: 296px;
-margin-top: 72px;">
-  <h1>
-    Task List
-  </h1>
-</div>
+<div class="tasklist-container" style="margin-left: 296px">
+  <div style=" margin-top: 72px">
+    <h1>Task List</h1>
+  </div>
 
-<div class="filters" style="margin-left: 316px;
-padding: 0;
-">
-  <p style="font-weight: bold;">Filters:</p>
-  <span style="width: 104px;
-  height: 26px;
-  flex-shrink: 0;
-  border-radius: 4px;
-border: 1px solid #D2D2D2;
-background: #FFF;
-margin-left: 323px;">Random</span>
-</div>
+  <div class="filters" style="padding: 0;
+  display: flex;">
+    <p style="font-weight: bold">Filters:</p>
+    <select
+      name="Status"
+      id="status"
+      style="
+        width: 104px;
+        height: 26px;
+        border-radius: 4px;
+        border: 1px solid #d2d2d2;
+        background: #fff;
+      "
+    >
+      <option value="To-Do">To-Do</option>
+      <option value="Done">Done</option>
+      <option value="Doing">Doing</option>
+    </select>
+    <select
+      name="Date"
+      id="Date"
+      style="
+        width: 104px;
+        height: 26px;
+        border-radius: 4px;
+        border: 1px solid #d2d2d2;
+        background: #fff;
+      "
+    >
+      <option value="To-Do">To-Do</option>
+      <option value="Done">Done</option>
+      <option value="Doing">Doing</option>
+    </select>
+    <select
+      name="priority"
+      id="priority"
+      style="
+        width: 104px;
+        height: 26px;
+        border-radius: 4px;
+        border: 1px solid #d2d2d2;
+        background: #fff;
+      "
+    >
+      <option value="High">High</option>
+      <option value="Medium">Medium</option>
+      <option value="Low">Low</option>
+    </select>
 
-<div class="tasklist-container" style="width: 1263px;
-height: 713px;
-border: 1px solid #d2d2d2;
-border-radius: 10px;
-margin-left: 298px;
-position: fixed;
-flex-shrink: 0;
-padding: 0px;
-">
-
+  </div>
+  <div
+    class="tasklist" style="margin-top: 8px;color: #BBB;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;">
+  <div style="width: 20%;">Title
+  </div>
+  <div style="width: 20%;">Due Date
+  </div>
+  <div style="width: 20%;">Priority</div>
+  <div style="width: 20%;">Status</div>
+  <div style="width: 20%;">Actions</div>
+  </div>
 </div>
