@@ -4,6 +4,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { TasklistComponent } from './tasklist/tasklist.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import {MatInputModule} from '@angular/material/input';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatNativeDateModule} from '@angular/material/core';
 
 @NgModule({
   declarations: [
@@ -12,7 +16,11 @@ import { SidebarComponent } from './sidebar/sidebar.component';
     TasklistComponent,
    ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatDatepickerModule,
+    MatInputModule,
+    MatFormFieldModule,
+    MatNativeDateModule
   ],
   providers: [],
   bootstrap: [AppComponent]
