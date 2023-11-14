@@ -1,0 +1,81 @@
+.modal-box {
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #fff;
+  margin: 319px 306px;
+  border: 1px black solid;
+  height: 516px;
+  width: 1090px;
+  position: relative;
+}
+
+.headline {
+  margin-top: 65px;
+  margin-left: 80px;
+  color: #000;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.title-box {
+  width: 615px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  border: 1px solid #bbb;
+  background: #fff;
+  position: absolute;
+  top: 133px;
+  left: 80px;
+}
+
+.description {
+  width: 615px;
+  height: 246px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  border: 1px solid #bbb;
+  background: #fff;
+  position: absolute;
+  top: 204px;
+  left: 80px;
+}
+
+.date-box {
+  width: 291px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 9px;
+border: 1px solid #BBB;
+background: #FFF;
+top: 133px;
+left: 720px;
+position: absolute;
+}
+
+.priority-box {
+  width: 291px;
+height: 48px;
+flex-shrink: 0;
+border-radius: 9px;
+border: 1px solid #BBB;
+background: #FFF;
+top: 204px;
+left: 720px;
+position: absolute;
+}
+
+.status-box {
+  width: 291px;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 9px;
+border: 1px solid #BBB;
+background: #FFF;
+top: 275px;
+left: 720px;
+position: absolute;
+}
