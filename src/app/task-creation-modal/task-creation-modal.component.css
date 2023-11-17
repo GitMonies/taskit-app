@@ -3,10 +3,11 @@
   border-radius: 9px;
   background: #fff;
   margin: 319px 306px;
-  border: 1px black solid;
   height: 516px;
   width: 1090px;
   position: relative;
+  z-index: 1;
+  overflow: auto;
 }
 
 .headline {
@@ -49,23 +50,23 @@
   height: 48px;
   flex-shrink: 0;
   border-radius: 9px;
-border: 1px solid #BBB;
-background: #FFF;
-top: 133px;
-left: 720px;
-position: absolute;
+  border: 1px solid #bbb;
+  background: #fff;
+  top: 133px;
+  left: 720px;
+  position: absolute;
 }
 
 .priority-box {
   width: 291px;
-height: 48px;
-flex-shrink: 0;
-border-radius: 9px;
-border: 1px solid #BBB;
-background: #FFF;
-top: 204px;
-left: 720px;
-position: absolute;
+  height: 48px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  border: 1px solid #bbb;
+  background: #fff;
+  top: 204px;
+  left: 720px;
+  position: absolute;
 }
 
 .status-box {
@@ -73,33 +74,42 @@ position: absolute;
   height: 48px;
   flex-shrink: 0;
   border-radius: 9px;
-border: 1px solid #BBB;
-background: #FFF;
-top: 275px;
-left: 720px;
-position: absolute;
+  border: 1px solid #bbb;
+  background: #fff;
+  top: 275px;
+  left: 720px;
+  position: absolute;
 }
 
 .cancel-btn {
   width: 126px;
-height: 46px;
-flex-shrink: 0;
-border-radius: 9px;
-background: #4B4B4B;
-top: 346px;
-left: 720px;
-position: absolute;
-color: #FFF;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #4b4b4b;
+  top: 346px;
+  left: 720px;
+  position: absolute;
+  color: #fff;
 }
 
 .create-btn {
   width: 126px;
-height: 46px;
-flex-shrink: 0;
-border-radius: 9px;
-background: #48C15B;
-top: 346px;
-left: 885px;
-position:absolute;
-color: #fff;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 9px;
+  background: #48c15b;
+  top: 346px;
+  left: 885px;
+  position: absolute;
+  color: #fff;
+}
+
+.modalBackdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.2);
 }
