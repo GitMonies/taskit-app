@@ -8,7 +8,7 @@ import { CommunicationService } from 'src/shared/communication.service';
   styleUrls: ['./app.component.css'],
 })
 
-export class AppComponent {
+export class AppComponent implements OnDestroy {
   isButtonClicked = false;
   private subscription: Subscription;
 
@@ -19,5 +19,9 @@ export class AppComponent {
       }
     );
 
+  }
+
+  ngOnDestroy() {
+    this.subscription.unsubscribe();
   }
 }
