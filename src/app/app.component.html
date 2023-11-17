@@ -3,8 +3,10 @@
 <!-- tasks list to display tasks -->
 <app-tasklist></app-tasklist>
 <!-- Modal to create a new task -->
+
 <div style="
 width: 1090px;
-height: 516px;">
+height: 516px;"
+*ngIf="isButtonClicked">
 <app-task-creation-modal></app-task-creation-modal>
 </div>

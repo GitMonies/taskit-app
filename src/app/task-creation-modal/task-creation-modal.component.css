@@ -79,3 +79,27 @@ top: 275px;
 left: 720px;
 position: absolute;
 }
+
+.cancel-btn {
+  width: 126px;
+height: 46px;
+flex-shrink: 0;
+border-radius: 9px;
+background: #4B4B4B;
+top: 346px;
+left: 720px;
+position: absolute;
+color: #FFF;
+}
+
+.create-btn {
+  width: 126px;
+height: 46px;
+flex-shrink: 0;
+border-radius: 9px;
+background: #48C15B;
+top: 346px;
+left: 885px;
+position:absolute;
+color: #fff;
+}

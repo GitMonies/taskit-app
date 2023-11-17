@@ -3,7 +3,7 @@
     <h1>Task List</h1>
   </div>
 
-  <div class="filters" style="padding: 0; display: flex">
+  <div class="filter">
     <p style="font-weight: bold">Filters:</p>
     <select name="Status" id="status" class="filter-list">
       <option value="To-Do">To-Do</option>
@@ -11,13 +11,13 @@
       <option value="Doing">Doing</option>
     </select>
     <div class="Date">
-      <input type="date" class="filter-list" />
+      <input type="date" class="filter-list" /> </div>
       <select name="priority" id="priority" class="filter-list">
         <option value="High">High</option>
         <option value="Medium">Medium</option>
         <option value="Low">Low</option>
       </select>
-    </div>
+        <button class="create-task-btn" (click)="onClick()" >Add New Task</button>
   </div>
   <div class="task-list">
     <div style="width: 20%">Title</div>

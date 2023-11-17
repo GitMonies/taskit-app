@@ -9,6 +9,7 @@ import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatNativeDateModule} from '@angular/material/core';
 import { TaskCreationModalComponent } from './task-creation-modal/task-creation-modal.component';
+import { CommunicationService } from 'src/shared/communication.service';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,7 @@ import { TaskCreationModalComponent } from './task-creation-modal/task-creation-
     MatFormFieldModule,
     MatNativeDateModule
   ],
-  providers: [],
+  providers: [CommunicationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
