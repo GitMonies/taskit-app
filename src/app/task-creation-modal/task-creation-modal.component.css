@@ -2,10 +2,10 @@
   flex-shrink: 0;
   border-radius: 9px;
   background: #fff;
-  margin: 319px 306px;
+  margin: 319px 301px;
   height: 516px;
   width: 1090px;
-  position: relative;
+  position: absolute;
   z-index: 1;
   overflow: auto;
 }
